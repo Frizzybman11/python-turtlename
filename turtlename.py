@@ -28,7 +28,7 @@ def drawB(t): #Draw Letter B
     for i in range(22):
         t.forward(1.8)
         t.right(10)
-    t.penup()    
+    t.penup()
     t.home()
 def drawC(t): #Draw Letter C
     t.left(90)
@@ -42,7 +42,7 @@ def drawC(t): #Draw Letter C
     t.left(225)
     t.forward(26.23)
     t.left(90)
-    t.forward(13.36)   
+    t.forward(13.36)
     t.pendown()
     for i in range(15):
         t.forward(2.5)
@@ -58,7 +58,7 @@ def drawD(t): #Draw Letter D
         t.right(10)
     t.forward(2)
     t.penup()
-    t.home()    
+    t.home()
 def drawE(t): #Draw Letter E
     t.forward(20)
     t.penup()
@@ -103,7 +103,7 @@ def drawG(t): #Draw Letter G
     t.left(225)
     t.forward(26.23)
     t.left(90)
-    t.forward(13.36)   
+    t.forward(13.36)
     t.pendown()
     for i in range(20):
         t.forward(2.5)
@@ -111,7 +111,7 @@ def drawG(t): #Draw Letter G
     t.left(90)
     t.forward(10)
     t.penup()
-    t.home()    
+    t.home()
 def drawH(t): #Draw Letter H
     t.left(90)
     t.forward(40)
@@ -157,7 +157,7 @@ def drawJ(t): #Draw Letter J
         t.forward(1.4)
         t.right(10)
     t.penup()
-    t.home()    
+    t.home()
 def drawK(t): #Draw Letter K
     t.left(90)
     t.forward(40)
@@ -217,7 +217,7 @@ def drawO(t): #Draw Letter O
         t.forward(2.5)
         t.right(9)
     t.penup()
-    t.home()                
+    t.home()
 def drawP(t): #Draw Letter P
     t.left(90)
     t.forward(40)
@@ -254,7 +254,7 @@ def drawQ(t): #Draw Letter Q
         t.forward(2.5)
         t.right(9)
     t.penup()
-    t.home()                  
+    t.home()
 def drawR(t): #Draw Letter R
     t.left(90)
     t.forward(40)
@@ -293,7 +293,7 @@ def drawT(t): #Draw Letter T
     t.pendown()
     t.backward(40)
     t.penup()
-    t.home()        
+    t.home()
 def drawU(t): #Draw Letter U
     t.left(90)
     t.penup()
@@ -317,7 +317,7 @@ def drawV(t): #Draw Letter V
     t.left(140)
     t.forward(40)
     t.penup()
-    t.home()    
+    t.home()
 def drawW(t): #Draw Letter W
     t.left(90)
     t.penup()
@@ -344,7 +344,7 @@ def drawX(t): #Draw Letter X
     t.pendown()
     t.forward(60)
     t.penup()
-    t.home()   
+    t.home()
 def drawY(t): #Draw Letter Y
     t.penup()
     t.forward(20)
@@ -514,8 +514,8 @@ def drawAlphabet(t): #Draw All Letters
     t.forward(40*2)
     t.pendown()
     drawZ(t)
-    
-name = input("What is your name?")    
+
+name = input("What is your name?")
 def drawName(t, name):
     nameChar = list(name)
     charCount = 1
@@ -578,10 +578,10 @@ def drawName(t, name):
         t.pendown()
         charCount = charCount + 1
 t.pendown()
-drawName(t, name)   
-"""drawAlphabet(t)"""    
+drawName(t, name)
+"""drawAlphabet(t)"""
 
-   
+
 
 turtle.done()
 
